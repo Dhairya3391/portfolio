@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         'cat lover',
         'Pow',
     ],
-    metadataBase: new URL('https://localhost:3000'),
+    metadataBase: new URL('https://portfolio-5wk7tgx9b-dhairya3391s-projects.vercel.app'),
 };
 
 export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
