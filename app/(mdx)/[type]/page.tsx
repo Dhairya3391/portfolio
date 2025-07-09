@@ -7,11 +7,11 @@ import Link from 'next/link';
 const meta: Record<string, { title: string; desc: string }> = {
     stories: {
         title: 'tales from my mind',
-        desc: 'a collection of stories born from my wandering imagination. some are whimsical, some are dark, and some might make you question reality—but all of them are little pieces of the worlds I’ve created. read at your own risk; you might get lost in them like I do :))',
+        desc: 'a collection of stories and dev logs, sometimes about tech, sometimes about how my cat just walked across my keyboard. always written with heart and a dash of nya~',
     },
     articles: {
         title: 'scribbles & thoughts',
-        desc: 'a mix of insights, ramblings, and whatever’s on my mind. sometimes i write about tech, sometimes about writing, and occasionally about how my cat just walked across my keyboard. no guarantees on coherence, but always written with heart ≽^•⩊•^≼',
+        desc: 'dev logs, ai prompts, automation walkthroughs, and whatever else i’m experimenting with. expect the unexpected, nya.',
     },
 };
 

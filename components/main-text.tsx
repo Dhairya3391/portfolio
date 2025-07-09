@@ -14,7 +14,7 @@ const MainText = () => {
             <h1 className="text-4xl">
                 code. write. purr.{' '}
                 <GlowingText className="relative italic">
-                    nya~~
+                    nya~!
                     {!prefersReducedMotion && <SparkleEffect />}
                 </GlowingText>
             </h1>

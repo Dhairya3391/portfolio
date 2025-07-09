@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className="relative z-999 flex items-center justify-between py-8">
             <Link href="/" className="font-medium dark:text-white">
-                pow.
+                Noob Okay.
             </Link>
             <button className="text-3xl md:hidden" onClick={() => setIsOpen((s) => !s)} aria-label="Toggle Menu">
                 <Icon icon="material-symbols-light:grid-view-outline" />

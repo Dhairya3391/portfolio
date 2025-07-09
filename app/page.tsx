@@ -17,17 +17,17 @@ const Page = () => {
                 <main className="grid items-center py-30 sm:grid-cols-2 sm:py-0">
                     <div className="space-y-8">
                         <MainText />
-                        <p>welcome to my world of code, stories, and the occasional cat nap.</p>
+                        <p>welcome to my den of code, stories, and the occasional nya~ nap.</p>
                     </div>
                     <Cat />
                 </main>
                 <Divider />
                 <h2 className="text-lg">a little about me</h2>
                 <p>
-                    hi, you can call me <GlowingText>pow</GlowingText>—a quirky nickname that somehow stuck. anw, i’m a{' '}
-                    <GlowingText>software engineer</GlowingText> focused on <GlowingText>web development</GlowingText>,
-                    but my curiosity doesn’t stop there. i enjoy exploring different areas of programming and constantly
-                    challenging myself to learn more.
+                    hi, you can call me <GlowingText>Noob Okay</GlowingText>—full stack developer, AI hacker, and TUI
+                    enthusiast. i build across ecosystems: from web apps to retro gamepad emulators. obsessed with
+                    functional UI/UX, AI-assisted devtools, and keyboard-first experiences. often seen debugging
+                    terminals or customizing anime-themed setups.
                 </p>
                 <Divider />
                 <Skills />
@@ -35,12 +35,13 @@ const Page = () => {
                 <Experiences />
                 <Divider />
                 <p>
-                    outside of coding, i’m a writer fueled by a vivid imagination. sometimes, my fantasies blur with
-                    reality, and i find myself lost in thought—but i wouldn’t have it any other way.
+                    outside of coding, i tinker with automation scripts, cli tools, and open source projects. sometimes,
+                    my fantasies blur with reality, and i find myself lost in thought—but i wouldn’t have it any other
+                    way.
                 </p>
                 <p>
                     * when i’m not coding or writing, you’ll find me with my cats, who keep me grounded (and
-                    occasionally distracted).
+                    occasionally distracted). nya~
                 </p>
             </section>
             <MagnetLines />

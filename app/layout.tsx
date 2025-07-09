@@ -22,6 +22,7 @@ export const metadata: Metadata = {
         'cat lover',
         'Pow',
     ],
+    metadataBase: new URL('https://localhost:3000'),
 };
 
 export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
