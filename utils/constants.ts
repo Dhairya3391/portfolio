@@ -7,10 +7,6 @@ export const navLinks = [
         title: 'projects',
         url: '/projects',
     },
-    {
-        title: 'guestbook',
-        url: '/guestbook',
-    },
 ];
 
 export const projects = [
