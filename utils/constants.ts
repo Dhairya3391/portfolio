@@ -29,8 +29,15 @@ export const projects = [
         name: 'MatterMind',
         description: 'Physics sandbox for your inner mad scientist. Toss, bounce, and break stuff—cat style.',
         github: 'https://github.com/Dhairya3391/MatterMind',
-        website: 'https://placeholder-mattermind.com',
+        website: 'https://matter-mind-aanocwu5z-dhairya3391s-projects.vercel.app/',
         tags: ['SvelteKit', 'Matter.js', 'Physics', 'Sandbox'],
+    },
+    {
+        name: 'Search Engine Demo',
+        description: 'A demo showcasing how search engines work. Interactive demonstration of search engine mechanics and algorithms.',
+        github: 'https://github.com/Dhairya3391/Search-Engine-Demo',
+        website: 'https://interactive-search-engine-6iul31mrg-dhairya3391s-projects.vercel.app/',
+        tags: ['Search Engine', 'Demo', 'Interactive', 'Web'],
     },
     {
         name: 'wallyzer',
