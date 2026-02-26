@@ -11,55 +11,67 @@ export const navLinks = [
 
 export const projects = [
     {
-        name: 'chat-app-next',
+        name: 'Aarambh',
         description:
-            'Real-time chat app with admin powers, bans, and a sprinkle of nya~ magic. Built with Next.js & Socket.IO.',
-        github: 'https://github.com/Dhairya3391/chat-app-next',
-        website: 'https://placeholder-chat-app-next.com',
-        tags: ['Next.js', 'Socket.IO', 'React', 'Fun'],
+            'Full-stack Learning Management System built on Clean Architecture. 40+ RESTful API endpoints with JWT auth, RBAC, global exception handling, and standardized responses. EF Core migrations, SQL Server schema, and a responsive Next.js dashboard.',
+        github: 'https://github.com/Dhairya3391/Aarambh',
+        website: 'https://aarambh.noobokay.me',
+        tags: ['.NET 8', 'ASP.NET Core', 'EF Core', 'SQL Server', 'Next.js', 'React', 'TypeScript'],
     },
     {
-        name: 'entertainment-hub',
-        description: 'A Next.js playground for all things fun. Edit, explore, and enjoy—nya!',
-        github: 'https://github.com/Dhairya3391/entertainment-hub',
-        website: 'https://placeholder-entertainment-hub.com',
-        tags: ['Next.js', 'Entertainment', 'Playground'],
+        name: 'continuum',
+        description:
+            'Distributed real-time life-simulation where personality-driven particles interact in a shared digital universe. Six .NET 10 microservices powering physics ticks, RabbitMQ events, SignalR live updates, and a React frontend.',
+        github: 'https://github.com/Dhairya3391/continuum',
+        website: '',
+        tags: ['.NET 10', 'C#', 'Microservices', 'RabbitMQ', 'Redis', 'SignalR', 'Hangfire'],
+    },
+    {
+        name: 'labforge',
+        description:
+            'Browser-based coding environment for academic lab assignments—full IDE with syntax highlighting, automated code evaluation via Judge0, canvas visualization tools, plagiarism detection, and real-time collaboration. Designed for 200+ concurrent users.',
+        github: 'https://github.com/Dhairya3391/labforge',
+        website: '',
+        tags: ['Next.js', 'TypeScript', 'Judge0', 'PostgreSQL', 'Redis', 'Socket.io', 'Academic'],
     },
     {
         name: 'MatterMind',
         description: 'Physics sandbox for your inner mad scientist. Toss, bounce, and break stuff—cat style.',
         github: 'https://github.com/Dhairya3391/MatterMind',
-        website: 'https://matter-mind-aanocwu5z-dhairya3391s-projects.vercel.app/',
+        website: 'https://mattermind.noobokay.me',
         tags: ['SvelteKit', 'Matter.js', 'Physics', 'Sandbox'],
     },
     {
-        name: 'Search Engine Demo',
-        description: 'A demo showcasing how search engines work. Interactive demonstration of search engine mechanics and algorithms.',
-        github: 'https://github.com/Dhairya3391/Search-Engine-Demo',
-        website: 'https://interactive-search-engine-6iul31mrg-dhairya3391s-projects.vercel.app/',
-        tags: ['Search Engine', 'Demo', 'Interactive', 'Web'],
+        name: 'chat-app-next',
+        description:
+            'Real-time chat app with admin powers, bans, and a sprinkle of nya~ magic. Built with Next.js & Socket.IO.',
+        github: 'https://github.com/Dhairya3391/chat-app-next',
+        website: '',
+        tags: ['Next.js', 'Socket.IO', 'React', 'Fun'],
+    },
+    {
+        name: 'lumen',
+        description:
+            'Frontend for a cardiovascular disease detector—connects to an ML inference backend, feeds patient data through a form flow, and visualizes risk predictions. the backend does the heavy lifting; this just makes it look nice.',
+        github: 'https://github.com/Dhairya3391/frontend2-lumen',
+        website: 'https://lumen.noobokay.me',
+        tags: ['TypeScript', 'Next.js', 'Healthcare'],
+    },
+    {
+        name: 'stock-pattern-scanner',
+        description:
+            'CLI tool that scans stock charts for candlestick patterns and trend signals using classical algorithms and lightweight ML models. runs quietly, outputs fast—like a cat spotting movement before you do.',
+        github: 'https://github.com/Dhairya3391/stock-pattern-scanner',
+        website: 'https://stock-pattern-detector.vercel.app',
+        tags: ['Python', 'ML', 'Finance', 'CLI'],
     },
     {
         name: 'wallyzer',
         description:
-            'AI-powered wallpaper wizard. Organize, score, and find the purr-fect background. Self-hosted, nya!',
+            'self-hosted wallpaper manager with a backend that scores and organizes your collection. because even a cat deserves a curated desktop. nya~',
         github: 'https://github.com/Dhairya3391/wallyzer',
         website: '',
-        tags: ['Python', 'Next.js', 'AI', 'Wallpapers'],
-    },
-    {
-        name: 'wallpaper-setter',
-        description: 'Rusty little tool for Android that keeps your walls fresh. No repeats, just vibes.',
-        github: 'https://github.com/Dhairya3391/wallpaper-setter',
-        website: '',
-        tags: ['Rust', 'Android', 'CLI', 'Wallpapers'],
-    },
-    {
-        name: 'ppt-converter',
-        description: 'Convert your PPTs with a flick of a paw. Simple, quick, and to the point.',
-        github: 'https://github.com/Dhairya3391/ppt-converter',
-        website: '',
-        tags: ['TypeScript', 'Converter', 'Utility'],
+        tags: ['TypeScript', 'Next.js', 'Wallpapers'],
     },
     {
         name: 'QuizApplication',
@@ -68,71 +80,78 @@ export const projects = [
         website: '',
         tags: ['ASP.NET', 'Quiz', 'WebApp'],
     },
-    {
-        name: 'wallpaper-analyzer',
-        description: 'CLI tool to analyze, sort, and purr-fect your wallpaper stash. v1, but still pawsome.',
-        github: 'https://github.com/Dhairya3391/wallpaper-analyzer',
-        website: '',
-        tags: ['Python', 'CLI', 'Wallpapers'],
-    },
 ];
 
 export const skills = [
-    { name: 'Python', link: 'https://www.python.org/', icon: 'simple-icons:python' },
+    // languages
+    { name: 'TypeScript', link: 'https://github.com/Dhairya3391/Aarambh', icon: 'simple-icons:typescript' },
+    { name: 'C#', link: 'https://github.com/Dhairya3391/continuum', icon: 'simple-icons:csharp' },
     {
         name: 'JavaScript',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+        link: 'https://github.com/making-something/ArtIcon',
         icon: 'simple-icons:javascript',
     },
-    { name: 'TypeScript', link: 'https://www.typescriptlang.org/', icon: 'simple-icons:typescript' },
+    { name: 'Python', link: 'https://github.com/Dhairya3391/stock-pattern-scanner', icon: 'simple-icons:python' },
     { name: 'Java', link: 'https://www.oracle.com/java/', icon: 'simple-icons:openjdk' },
-    { name: 'C#', link: 'https://learn.microsoft.com/en-us/dotnet/csharp/', icon: 'simple-icons:csharp' },
-    { name: 'Shell/Bash/Zsh', link: 'https://www.gnu.org/software/bash/', icon: 'simple-icons:gnubash' },
-    { name: 'Rust', link: 'https://www.rust-lang.org/', icon: 'simple-icons:rust' },
+    { name: 'Go', link: 'https://github.com/Dhairya3391/Sophos-Auto-Login', icon: 'simple-icons:go' },
+    { name: 'Shell/Bash', link: 'https://github.com/pystardust/ani-cli', icon: 'simple-icons:gnubash' },
+    // backend
+    { name: 'ASP.NET', link: 'https://github.com/Dhairya3391/Aarambh', icon: 'simple-icons:dotnet' },
+    { name: 'NestJS', link: 'https://nestjs.com/', icon: 'simple-icons:nestjs' },
+    { name: 'Express', link: 'https://expressjs.com/', icon: 'simple-icons:express' },
+    // frontend
+    { name: 'Next.js', link: 'https://github.com/Dhairya3391/labforge', icon: 'simple-icons:nextdotjs' },
     { name: 'HTML/CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML', icon: 'simple-icons:html5' },
-    { name: 'Next.js', link: 'https://nextjs.org/', icon: 'simple-icons:nextdotjs' },
-    { name: 'Flask', link: 'https://flask.palletsprojects.com/', icon: 'simple-icons:flask' },
-    { name: 'MERN', link: 'https://www.mongodb.com/mern-stack', icon: 'simple-icons:mongodb' },
-    { name: 'ASP.NET', link: 'https://dotnet.microsoft.com/en-us/apps/aspnet', icon: 'simple-icons:dotnet' },
-    { name: 'Git', link: 'https://git-scm.com/', icon: 'simple-icons:git' },
-    { name: 'Termux', link: 'https://termux.dev/en/', icon: 'simple-icons:android' },
-    { name: 'Zsh', link: 'https://www.zsh.org/', icon: 'simple-icons:zsh' },
-    { name: 'Neovim', link: 'https://neovim.io/', icon: 'simple-icons:neovim' },
-    { name: 'vJoy', link: 'https://sourceforge.net/projects/vjoystick/', icon: 'simple-icons:windows' },
-    { name: 'FFmpeg', link: 'https://ffmpeg.org/', icon: 'simple-icons:ffmpeg' },
-    { name: 'yt-dlp', link: 'https://github.com/yt-dlp/yt-dlp', icon: 'simple-icons:youtube' },
+    // databases
+    { name: 'SQL Server', link: 'https://github.com/Dhairya3391/Aarambh', icon: 'simple-icons:microsoftsqlserver' },
+    { name: 'PostgreSQL', link: 'https://github.com/Dhairya3391/labforge', icon: 'simple-icons:postgresql' },
+    { name: 'MongoDB', link: 'https://www.mongodb.com/', icon: 'simple-icons:mongodb' },
+    { name: 'Redis', link: 'https://github.com/Dhairya3391/continuum', icon: 'simple-icons:redis' },
+    // ml
     { name: 'PyTorch', link: 'https://pytorch.org/', icon: 'simple-icons:pytorch' },
     { name: 'TensorFlow', link: 'https://www.tensorflow.org/', icon: 'simple-icons:tensorflow' },
-    { name: 'scikit-learn', link: 'https://scikit-learn.org/', icon: 'simple-icons:scikitlearn' },
+    { name: 'scikit-learn', link: 'https://github.com/Dhairya3391/stock-pattern-scanner', icon: 'simple-icons:scikitlearn' },
+    // tools
+    { name: 'Docker', link: 'https://www.docker.com/', icon: 'simple-icons:docker' },
+    { name: 'Git', link: 'https://github.com/Dhairya3391', icon: 'simple-icons:git' },
     { name: 'Linux', link: 'https://kernel.org/', icon: 'simple-icons:linux' },
-    { name: 'Emulation', link: 'https://www.retroarch.com/', icon: 'simple-icons:retroarch' },
-    { name: 'CLI tools', link: 'https://en.wikipedia.org/wiki/Command-line_interface', icon: 'simple-icons:gnubash' },
-    { name: 'JSON API', link: 'https://www.json.org/json-en.html', icon: 'simple-icons:json' },
 ];
 
 export const experiences = {
-    'professional hustles': [
+    'alter ego': [
         {
-            company: 'Noob Okay',
-            role: 'Full Stack Developer, AI Hacker & TUI Enthusiast',
-            year: '2024 – nya~',
-            img: '/mylogo.jpg',
+            company: 'Dhairya',
+            role: 'backend dev by trade, curious tinkerer by nature. if there\'s a system to design or an API to structure, i\'m probably already thinking about it.',
+            img: 'mylogo.jpg',
         },
     ],
     heartwork: [
         {
             company: 'Open Source',
-            role: 'Trying to help as much as I can by creating open source projects and fun tools.',
-            year: '2024 – nya~',
-            img: '/github.svg',
+            role: 'contributing tools and scratching itches in public. if it solved my problem, it might solve yours too. nya~',
+            img: 'github.svg',
+        },
+    ],
+    'professional hustles': [
+        {
+            company: 'Multiicon',
+            role: 'Software Engineer Intern — REST APIs, JWT auth, authorization middleware. joined after winning their hackathon. nya~',
+            year: 'Sep 2025 – Jan 2026',
+            img: 'multiicon.svg',
         },
     ],
     'student diaries': [
         {
             company: 'Darshan University',
-            role: 'B.Tech CSE, 5th Sem',
-            year: '2024',
-            img: '/college.svg',
+            role: 'B.Tech CSE, 6th Sem — CGPA 8.11/10',
+            year: '2024 – 26',
+            img: 'college.svg',
+        },
+        {
+            company: 'Kalyan Polytechnic',
+            role: 'Diploma in Computer Science — First Class with Distinction',
+            year: '2023',
+            img: 'gtu.png',
         },
     ],
 };

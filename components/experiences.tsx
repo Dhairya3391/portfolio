@@ -11,22 +11,26 @@ const Experiences = () => {
                         {items.map((item, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+                                className="flex items-center gap-4"
                             >
-                                <div className="flex items-center gap-4">
-                                    <Image
-                                        className="aspect-square rounded-xl object-contain"
-                                        src={`/brand/${item.img}`}
-                                        alt={item.company}
-                                        width={50}
-                                        height={50}
-                                    />
-                                    <div>
-                                        <h3>{item.company}</h3>
-                                        <p>{item.role}</p>
-                                    </div>
+                                <Image
+                                    className="aspect-square rounded-xl object-contain"
+                                    src={`/brand/${item.img}`}
+                                    alt={item.company}
+                                    width={50}
+                                    height={50}
+                                />
+                                <div>
+                                    <h3>
+                                        {item.company}
+                                        {'year' in item && (
+                                            <span className="text-primary-500 dark:text-primary-400 ml-2 text-sm font-normal">
+                                                {item.year}
+                                            </span>
+                                        )}
+                                    </h3>
+                                    <p>{item.role}</p>
                                 </div>
-                                <p className="ml-[65px] text-sm sm:m-0">{item.year}</p>
                             </div>
                         ))}
                     </div>

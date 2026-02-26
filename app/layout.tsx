@@ -9,6 +9,8 @@ export const metadata: Metadata = {
     description:
         'The personal space of Pow, a software engineer and fiction writer. A place where code meets creativity, and cats rule the world. Explore projects, stories, and thoughts—crafted with passion (and probably some cat hair).',
     keywords: [
+        'Dhairya Adroja',
+        'backend developer',
         'software engineer',
         'web developer',
         'fiction writer',
